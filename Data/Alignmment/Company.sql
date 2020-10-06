@@ -7,4 +7,4 @@ Company_name text, Segment text, Week text, VC text, Lead_Owner text, Location t
 
 COPY Company From 'C:\Users\Public\Documents\Company.csv' DELIMITER ',' CSV HEADER;
 
-select * from Company;
+SELECT * FROM Company;
