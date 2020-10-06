@@ -1,0 +1,8 @@
+﻿CREATE TABLE Contact_Status
+
+(
+Email VARCHAR(50), Person_Status VARCHAR(50), Viewed_Pointdrive VARCHAR(50), Email_Status1 VARCHAR(50), Email_Status2 VARCHAR(50), Email_Status3 VARCHAR(50), Email_Status4 VARCHAR(50), Email_Status5 VARCHAR(50), Email_Status6 VARCHAR(50), Email_Status7 VARCHAR(50), Email_Status8 VARCHAR(50), Email_Status9 VARCHAR(50), Email_Status10 VARCHAR(50), Email_Status11 VARCHAR(50), Email_Status12 VARCHAR(50), Email_Status13 VARCHAR(50), Email_Status14 VARCHAR(50), Email_Status15 VARCHAR(50),	Email_Status16 VARCHAR(50), Email_Status17 VARCHAR(50),	Email_Status18 VARCHAR(50), Email_Status19 VARCHAR(50),	Email_Status20 VARCHAR(50), Email_Status21 VARCHAR(50), Email_Status22 VARCHAR(50), Email_Status23 VARCHAR(50),	Email_Status24 VARCHAR(50), Email_Status25 VARCHAR(50),	Email_Status26 VARCHAR(50), Email_Status27 VARCHAR(50),	Email_Status28 VARCHAR(50), Email_Status29 VARCHAR(50),	Email_Status30 VARCHAR(50), Email_Status31 VARCHAR(50),	Email_Status32 VARCHAR(50), Email_Status33 VARCHAR(50),	Email_Status34 VARCHAR(50), Email_Status35 VARCHAR(50),	Email_Status36 VARCHAR(50), Email_Status37 VARCHAR(50),	Email_Status38 VARCHAR(50), Email_Status39 VARCHAR(50),	Email_Status40 VARCHAR(50), Email_Status41 VARCHAR(50),	Email_Status42 VARCHAR(50), Email_Status43 VARCHAR(50),	Email_Status44 VARCHAR(50), Email_Status45 VARCHAR(50),	Email_Status46 VARCHAR(50), id_co VARCHAR(50) NOT NULL, id_con VARCHAR(50) NOT NULL, Points int
+);
+
+COPY Contact_Status FROM 'C:\Users\Public\\Downloads\Contact_Status_O.csv' DELIMITER ',' CSV HEADER
+select * from Contact_Status;
